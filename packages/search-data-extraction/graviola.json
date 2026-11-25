@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Graviola",
+  "packageName": "@toolsdk-remote/graviola",
+  "description": "Professional people search, available contact data, projects and authorized email workflows for your own AI. A product of Heuv Technologies; account, permissions, credits and plan limits apply.",
+  "url": "https://github.com/heuv-technologies/graviola",
+  "readme": "https://github.com/heuv-technologies/graviola#readme",
+  "runtime": "node",
+  "logo": "https://graviola.dev/graviola-icon.png",
+  "author": "Heuv Technologies",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.graviola.dev/api/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ]
+}
